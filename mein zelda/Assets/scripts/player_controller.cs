@@ -27,6 +27,6 @@ public class player_controller : MonoBehaviour {
     }
 	void OnTriggerEnter(Collider other) {
 		Destroy(other.gameObject);
-		gameController.GetComponent<game_controller>().addScore ();
+		gameController.GetComponent<score_controller>().addScore ();
 	}
 }

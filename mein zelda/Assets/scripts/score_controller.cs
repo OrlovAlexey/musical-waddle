@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class game_controller : MonoBehaviour {
+public class score_controller : MonoBehaviour {
 
 	[SerializeField]
 	private int score = 0;
